@@ -1,0 +1,24 @@
+body{
+    background-color: #0C0C0C;
+    color: white;
+}
+#white-box{
+    height: 400px;
+    width: 1200px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+#white-box > #blue-box1{
+    height: 80px;
+    width: 1200px;
+    background-color: #002F6C;
+    position: absolute;
+    top: 160px;
+}
+#white-box > #blue-box2{
+    height: 400px;
+    width: 80px;
+    background-color: #002F6C;
+    position: absolute;
+    left: 200px;
+}
